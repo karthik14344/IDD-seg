@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dataset images and outputs (too large for git)
+outputs/
+
+# Model checkpoints
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Raw dataset directories
+idd_lite/
+idd_segmentation/
+__MACOSX/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
